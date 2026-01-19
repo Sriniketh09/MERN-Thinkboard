@@ -6,6 +6,10 @@
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^5.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sriniketh09/MERN-Thinkboard.git"
